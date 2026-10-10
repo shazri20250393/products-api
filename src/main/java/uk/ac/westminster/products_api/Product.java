@@ -1,7 +1,7 @@
 package uk.ac.westminster.products_api;
 
 public class Product {
-    private final Long id= 2L;
+    private Long id= 2L;
     private String name = "Laptop";
     private Double price = 999.99;
 
@@ -9,33 +9,33 @@ public class Product {
 
     }
 
-   // public Product(Long id, String name, Double price){
-       // this.id= id;
-      //  this.name= name;
-      //  this.price= price;
-    //}
+    public Product(Long id, String name, Double price){
+        this.id= id;
+       this.name= name;
+       this.price= price;
+    }
 
     public Long getId() {
         return id;
     }
     public  String getName(){
-        return name;
+       return name;
     }
 
     public Double getPrice() {
         return price;
     }
 
-   // public void setId(Long id) {
-    //    this.id = id;
-   // }
+   public void setId(Long id) {
+       this.id = id;
+    }
 
-  //  public void setName(String name) {
-      //  this.name = name;
+    public void setName(String name) {
+        this.name = name;
 
-   // }
+    }
 
-    //public void setPrice(Double price) {
-        //this.price = price;
-   // }
+    public void setPrice(Double price) {
+        this.price = price;
+    }
 }
