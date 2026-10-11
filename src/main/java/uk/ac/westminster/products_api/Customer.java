@@ -27,7 +27,7 @@ public class Customer {
         return email;
     }
 
-//    public Address getAddress() {
-//        return address;
-//    }
+    public Address getAddress() {
+        return address;
+    }
 }
