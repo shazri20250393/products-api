@@ -26,4 +26,8 @@ public class Product {
     public Double getPrice() {
         return price;
     }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
 }
