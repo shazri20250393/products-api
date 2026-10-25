@@ -14,4 +14,10 @@ public class ProductService {
     public List<Product> getAllProducts(){
         return  products;
     }
+    public Product addProduct(Product product) {
+        product.setId(nextId++); // use the value, then add one
+        products.add(product);
+        return product;
+    }
+
 }
